@@ -1,0 +1,113 @@
+@import url(styles/header.css);
+@import url(styles/metricas.css);
+@import url(styles/suporte.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/Rodapé.css);
+
+:root {
+    --text-color: #667085;
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.link a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--branco);
+  font-size: 0.9rem;
+}
+
+.buttons {
+  background-color: var(--vermelho);
+  color: var(--branco);
+}
+
+@media screen and (max-width: 1024px) {
+    .métricas__container {
+      padding: 0.4rem;
+    }
+}
+  
+  @media screen and (max-width: 850px) {
+    .métricas__container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .métricas__container {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  
+    .métrica__item
+    .container__titulo
+    .métrica__numero  {
+      max-width: 280px;
+      text-align: center;
+    }
+  
+    .cabeçalho {
+      text-align: center;
+      margin-left: 30rem;
+      max-width: 100%;
+    }
+
+    .cabeçalho__suporte, .suporte__imagem {
+        margin: 2.5rem;
+        display: block;
+    }
+    
+    .vaga {
+      margin-left: 32em;
+      max-width: 70%;
+      padding: 1em;
+      margin-bottom: 1rem;
+    }
+    
+    .vagas-abertas span.area-principal {
+      max-width: 70%;
+      margin-left: 32em;
+    }
+
+    .depoimentos
+    .depoimentos__item {
+        margin-left: 30em;
+    }
+
+    .rodapé__menu {
+        margin-left: 30em;
+    }
+
+}

@@ -1,0 +1,33 @@
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 0;
+    gap: 24px;
+    height: 407px;
+    top: 80px;
+}
+
+.subcabeçalho {
+    color: var(--vermelho);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    height: 24px;
+}
+
+.container {
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    width: 791px;
+    height: 60px;
+    top: 12px;
+}

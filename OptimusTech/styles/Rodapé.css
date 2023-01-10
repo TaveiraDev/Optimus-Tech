@@ -1,0 +1,41 @@
+.rodapé__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9FAFB;
+    padding: 6rem 1rem;
+    gap: 1.5rem;
+}
+
+.rodapé__texto {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rodapé__subtitulo {
+    color: var(--text-color);
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.formulario__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 2px;
+    padding-left: 1rem;
+    width: 12rem;
+    margin-right: 1rem;
+    height: 48px;
+}
+
+.Sign-up {
+    background: var(--vermelho);
+}

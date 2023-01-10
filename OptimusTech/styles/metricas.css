@@ -1,0 +1,44 @@
+.métricas__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 64px;
+    margin-left: 80px;
+    width: 1280px;
+    height: 192px;
+}
+
+.métrica__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 1216px;
+    height: 192px;
+}
+
+.métrica__numero {
+    color: var(--vermelho);
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.métrica__titulo {
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    top: 84px;
+    height: 84px;
+    width: 280px;
+}
